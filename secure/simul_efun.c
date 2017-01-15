@@ -6,7 +6,7 @@
  */
 
 #include <sys/functionlist.h>
-#include <capabilities.h>
+#include <capability.h>
 
 /**
  * Move an object and return success or failure.

@@ -84,9 +84,9 @@ void inaugurate_master(int arg) {
     ({ 'objectname }),
     ({ #'?,
        ({ #'==, ({ #'[..], 'objectname, 0, 6 }), SecureDir "/"[1..] }),
-       ToplevelDomain,
+       TopLevelDomain,
        ({ #'==, ({ #'[..], 'objectname, 0, 8 }), PlatformDir "/"[1..] }),
-       ToplevelDomain DOMAIN_DELIM PlatformDomain,
+       TopLevelDomain DOMAIN_DELIM PlatformDomain,
        0
     })
   ));
@@ -94,9 +94,9 @@ void inaugurate_master(int arg) {
     ({ 'blueprint, 'objectname }),
     ({ #'?,
        ({ #'==, ({ #'[..], 'objectname, 0, 6 }), SecureDir "/"[1..] }),
-       ToplevelDomain,
+       TopLevelDomain,
        ({ #'==, ({ #'[..], 'objectname, 0, 8 }), PlatformDir "/"[1..] }),
-       ToplevelDomain DOMAIN_DELIM PlatformDomain,
+       TopLevelDomain DOMAIN_DELIM PlatformDomain,
        0
     })
   ));
